@@ -1,0 +1,122 @@
+[
+  {
+    "id": "level-001",
+    "title": "Necrobit in the Neon Alley",
+    "world": "Cyber City",
+    "image": "/levels/level-001/main.png",
+    "targets": [
+      {
+        "id": "necrobit",
+        "type": "character",
+        "label": "Find Necrobit",
+        "x": 18,
+        "y": 52,
+        "radius": 6
+      },
+      {
+        "id": "difference-001",
+        "type": "difference",
+        "label": "Missing neon sign",
+        "x": 90,
+        "y": 6,
+        "radius": 7
+      },
+      {
+        "id": "difference-002",
+        "type": "difference",
+        "label": "Broken streetlight",
+        "x": 11,
+        "y": 14,
+        "radius": 6
+      },
+      {
+        "id": "difference-003",
+        "type": "difference",
+        "label": "Hidden cat",
+        "x": 88,
+        "y": 72,
+        "radius": 4
+      }
+    ]
+  },
+  {
+    "id": "level-002",
+    "title": "Necrobit in the Haunted Lab",
+    "world": "Haunted Lab",
+    "image": "/levels/level-002/main.png",
+    "targets": [
+      {
+        "id": "necrobit",
+        "type": "character",
+        "label": "Find Necrobit",
+        "x": 60,
+        "y": 43,
+        "radius": 6
+      },
+      {
+        "id": "difference-001",
+        "type": "difference",
+        "label": "Extra beaker",
+        "x": 16,
+        "y": 33,
+        "radius": 5
+      },
+      {
+        "id": "difference-002",
+        "type": "difference",
+        "label": "Missing skull",
+        "x": 49,
+        "y": 13,
+        "radius": 6
+      },
+      {
+        "id": "difference-003",
+        "type": "difference",
+        "label": "Green liquid spill",
+        "x": 90,
+        "y": 88,
+        "radius": 6
+      }
+    ]
+  },
+  {
+    "id": "level-003",
+    "title": "Necrobit in the Space Station",
+    "world": "Space Station",
+    "image": "/levels/level-003/main.png",
+    "targets": [
+      {
+        "id": "necrobit",
+        "type": "character",
+        "label": "Find Necrobit",
+        "x": 28,
+        "y": 57,
+        "radius": 6
+      },
+      {
+        "id": "difference-001",
+        "type": "hidden",
+        "label": "Floating sandwich",
+        "x": 78,
+        "y": 12,
+        "radius": 5
+      },
+      {
+        "id": "difference-002",
+        "type": "hidden",
+        "label": "Tiny astronaut figure",
+        "x": 9,
+        "y": 12,
+        "radius": 4
+      },
+      {
+        "id": "difference-003",
+        "type": "difference",
+        "label": "Broken porthole",
+        "x": 87,
+        "y": 62,
+        "radius": 6
+      }
+    ]
+  }
+]
