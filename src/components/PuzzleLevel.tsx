@@ -180,7 +180,7 @@ export default function PuzzleLevel({ level, hasNext, onComplete, onNext, onBack
       <div className="flex items-center justify-between px-4 py-3 border-t border-purple-800/30 bg-purple-950/60">
         <HintButton targets={required} foundIds={foundIds} onHint={showHint} />
         <div className="flex gap-1.5">
-          {required.map((t, i) => (
+          {required.map((t) => (
             <div
               key={t.id}
               className={`w-3 h-3 rounded-full transition-all ${
